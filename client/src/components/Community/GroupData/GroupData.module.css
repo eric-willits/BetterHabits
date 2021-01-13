@@ -1,0 +1,49 @@
+.table {
+    display: table;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.habitTabsRow {
+    display: table-row;
+    height: 20%;
+}
+
+.habitTabCell {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.habitTab {
+    width: fit-content;
+    display: inline;
+    border-radius: 20px;
+    background-color: #F2EFEF;
+}
+
+.habitTab a {
+    padding: 0 20px;
+    font-size: 14px;
+    transition: all 0.2s;
+}
+
+.habitTab a:hover{
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.active {
+    height: 100%;
+    width: 100%;
+    background-color: #4558FF;
+    border-radius: 20px;
+    color: #FFFFFF;
+}
+
+.habitDataRow {
+    display: table-row;
+}

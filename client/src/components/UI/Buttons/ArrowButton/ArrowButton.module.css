@@ -1,0 +1,11 @@
+.arrowButton {
+    border: none;
+    width: 30px;
+    background-color: #ffffff00;
+    color: #007bff;
+    transition: all 0.2s;
+}
+
+.arrowButton:hover {
+    transform: scale(1.25);
+}

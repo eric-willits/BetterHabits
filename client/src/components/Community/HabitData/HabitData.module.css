@@ -1,0 +1,49 @@
+.table {
+    display: table;
+    width: calc(100% - 2rem);
+    margin: 1rem;
+    border-collapse: collapse;
+}
+
+.tableRow {
+    display: table-row;
+    width: 100%;
+    height: fit-content;
+}
+
+.tableCell1 {
+    display: table-cell;
+    width: 15%;
+    position: relative;
+    border: 1px solid #AAA9A9;
+}
+
+
+.container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container p {
+    font-size: 0.5rem;
+    color: #696969;
+    margin: 0;
+}
+
+.tableCell2 {
+    display: table-cell;
+    border: 1px solid #AAA9A9;
+}
+
+.topRow {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}

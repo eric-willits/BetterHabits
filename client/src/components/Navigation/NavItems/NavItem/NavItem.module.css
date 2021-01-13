@@ -1,0 +1,13 @@
+.NavItem {
+    width: fit-content;
+    margin-left: 20px;
+}
+
+.NavItem a {
+    color: rgb(48,48,48);
+}
+
+.NavItem a:hover {
+    color: rgb(190,190,190);
+    text-decoration: none;
+}

@@ -1,0 +1,40 @@
+.container {
+    width: 90vw;
+    height: 70vh;
+    max-width: 750px;
+    margin: 0 auto;
+    background-color: #fff6a6;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    z-index: 2;
+}
+
+.form {
+    width: 400px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.title {
+    font-style: italic;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.button {
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    padding: 0 20px;
+    color: white;
+    background-color: #4558FF;
+}

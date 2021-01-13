@@ -1,0 +1,69 @@
+.container {
+    width: 90vw;
+    height: 70vh;
+    max-width: 750px;
+    margin: 0 auto;
+    background-color: #FFC0E6;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    z-index: 2;
+}
+
+.table {
+    width: 90%;
+    height: 80%;
+    display: table;
+    background-color: white;
+}
+
+.groupTabs {
+    width: 25%;
+    height: 100%;
+    display: table-cell;
+    background-color: #F2EFEF;
+}
+
+
+.groupTabsTable {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+.groupTabsRow {
+    display: table-row;
+}
+
+.groupTabsCell {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.groupTabsCell a {
+    transition: all 0.2s;
+}
+
+.groupTabsCell a:hover{
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.groupData {
+    width: 75%;
+    height: 100%;
+    display: table-cell;
+    position: relative;
+}
+
+.active {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5) 90%, #4558FF 90%);
+}

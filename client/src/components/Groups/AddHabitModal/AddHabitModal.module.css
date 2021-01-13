@@ -1,0 +1,10 @@
+.navlinkText {
+    text-transform: uppercase;
+    transition: all 0.2s;
+    color: #696969;
+}
+
+.navlinkText:hover {
+    font-size: 17px;
+    text-decoration: none;
+}

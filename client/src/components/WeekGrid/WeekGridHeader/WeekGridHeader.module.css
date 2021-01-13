@@ -1,0 +1,17 @@
+.weekHeaderContainer {
+    height: 40px;
+    width: 100%;
+}
+
+.weekContainerItem {
+    display: inline-block;
+    height: 100%;
+    width: 14%;
+    font-size: 14px;
+    text-align: center;
+    color: #696969;
+}
+
+.weekContainerItem p {
+    font-size: 0.5rem;
+}

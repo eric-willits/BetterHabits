@@ -1,0 +1,39 @@
+.listGroup {
+  display: inline-block;
+  margin: 0;
+}
+
+.listItem {
+  margin-right: 20px;
+  color: rgb(50, 50, 50);
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 5px 10px 20px 10px;
+  border-radius: 10px;
+  position: relative;
+  z-index: 1;
+  transition: all 0.2s;
+}
+
+.listItem:hover{
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.day {
+  background-color: #FFF6A6;
+}
+
+.dashboard {
+  background-color: #AADBFF;
+}
+
+.community {
+  background-color: #FFC0E6;
+}
+
+.container {
+  width: fit-content;
+  height: fit-content;
+  margin: 0 auto;
+}

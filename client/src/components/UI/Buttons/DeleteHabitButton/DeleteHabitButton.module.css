@@ -1,0 +1,12 @@
+.deleteButton {
+    border: none;
+    width: 30px;
+    background-color: #ffffff00;
+    color: rgba(252, 97, 86, 0.5);
+    transition: all 0.2s;
+}
+
+.deleteButton:hover {
+    color: rgb(252, 97, 86);
+    transform: scale(1.1);
+}

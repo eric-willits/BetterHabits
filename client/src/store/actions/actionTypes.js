@@ -1,0 +1,31 @@
+export const UPDATE_HABITS = "UPDATE_HABITS";
+export const GET_CURR_WEEK_DATA = "GET_CURR_WEEK_DATA";
+
+export const GET_GROUPS = "GET_GROUPS";
+export const ADD_GROUP_SUCCESS = "ADD_GROUP_SUCCESS";
+export const ADD_GROUP_FAIL = "ADD_GROUP_FAIL";
+export const ADD_HABIT_TO_GROUP_SUCCESS = "ADD_HABIT_TO_GROUP_SUCCESS";
+export const ADD_HABIT_TO_GROUP_FAIL = "ADD_HABIT_TO_GROUP_FAIL";
+export const REMOVE_HABIT_FROM_GROUP = "REMOVE_HABIT_FROM_GROUP"
+export const DELETE_GROUP = "DELETE_GROUP";
+export const ADD_USER = "ADD_USER";
+
+export const STEP_DAY = "STEP_DAY";
+export const SET_MONDAY = "SET_MONDAY";
+export const START_ACTION = "START_ACTION";
+export const FINISH_ACTION = "FINISH_ACTION";
+
+/* export const DISPLAY_HABIT_DATA = "DISPLAY_HABIT_DATA"; */
+
+export const USER_LOADING = "USER_LOADING";
+export const USER_LOADED = "USER_LOADED";
+export const AUTH_ERROR = "AUTH_ERROR";
+export const LOGIN_SUCCESS = "LOGIN_SUCCESS";
+export const LOGIN_FAIL = "LOGIN_FAIL";
+export const LOGOUT_SUCCESS = "LOGOUT_SUCCESS";
+export const REGISTER_SUCCESS = "REGISTER_SUCCESS";
+export const REGISTER_FAIL = "REGISTER_FAIL";
+
+export const GET_ERRORS = 'GET_ERRORS';
+export const CLEAR_ERRORS = 'CLEAR_ERRORS';
+

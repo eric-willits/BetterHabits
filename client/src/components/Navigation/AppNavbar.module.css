@@ -1,0 +1,20 @@
+.AppNavbar {
+    height: 55px;
+    width: 100vw;
+    background-color: rgb(86, 102, 150);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 55px;
+    margin-bottom: 55px;
+}
+
+.AppLogoItem {
+    color: white;
+    font-size: 20px;
+}
+
+.AppLogoItem:hover {
+    color: white;
+    text-decoration: none;
+}
